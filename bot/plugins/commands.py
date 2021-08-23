@@ -26,13 +26,9 @@ async def start(bot, update):
             await update.reply_text(
                 text=""" <b> ⚠️ YOU ARE NOT SUBSCRIBED OUR CHANNEL⚠️
 
-Join on our channel to get movies ✅
+Join on our channel to get Serials ✅
 
-
-⚠️താങ്കൾ ഞങ്ങളുടെ ചാനൽ സബ്സ്ക്രൈബ് ചെയ്തിട്ട് ഇല്ല ! ⚠️
-
-
-ഞങ്ങളുടെ ചാനലിൽ ജോയിൻ ചെയ്യതാൽ താങ്കൾക്ക് movies കിട്ടുന്നത് ആണ് ✅
+First Join Your Channel 💖
 
 ⬇️Channel link⬇️ </b>""",
                 reply_markup=InlineKeyboardMarkup([
@@ -66,7 +62,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/JNS_BOTS"
+                                    '💖 Join Main Channel 💖', url="https://t.me/Sk_Tv_Official"
                                 )
                         ]
                     ]
@@ -85,7 +81,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/jns_bots"
+                                    '💖 Join Main Channel 💖', url="https://t.me/Sk_Tv_Official"
                                 )
                         ]
                     ]
@@ -104,7 +100,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/jns_bots"
+                                    '💖 Join Main Channel 💖', url="https://t.me/Sk_Tv_Official"
                                 )
                         ]
                     ]
@@ -117,10 +113,10 @@ Join on our channel to get movies ✅
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/jns_bots'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://t.me/https://t.me/githubsoursecode')],                               
+        InlineKeyboardButton('My God 🤒', url='https://t.me/Sk8903'),
+        InlineKeyboardButton('Website 🌐', url ='https://t.me/https://www.sktamilserialbots.com/')],                               
      [
-        InlineKeyboardButton('Support 🛠', url='https://t.me/jns_fc_bots')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/Sk_Tv_Official')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
