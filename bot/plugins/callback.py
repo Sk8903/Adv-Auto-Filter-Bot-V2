@@ -95,7 +95,7 @@ async def cb_navg(bot, update: CallbackQuery):
 
     if not int(index_val) == 0:    
         temp_results.append([
-            InlineKeyboardButton(f"🔰 Page {index_val + 1}/{len(results) if len(results) < max_pages else max_pages} 🔰", callback_data="ignore")
+            InlineKeyboardButton(f"💖 Page {index_val + 1}/{len(results) if len(results) < max_pages else max_pages} 💖", callback_data="ignore")
         ])
     
     if show_invite and int(index_val) !=0 :
@@ -142,7 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<i>Found</i> <code>{leng}</code> <i>Results For Your Query:</i> <code>{query}</code>"
+    text=f"<i>கிடைத்த</i> <code>{leng}</code> <i>எபிசோட் 👇👇 🔷 Powered By - @Sk_Tv_Official:</i> <code>{query}</code>"
         
     try:
         await update.message.edit(
@@ -1601,14 +1601,14 @@ async def cb_about(bot, update: CallbackQuery):
     text=f"<i><u>Bot's Status</u></i>\n"
     text+=f"\n<b><i>Bot's Uptime:</i></b> <code>{time_formatter(time.time() - start_uptime)}</code>\n"
     text+=f"\n<b><i>Bot Funtion:</i></b> <i>Auto Filter Files</i>\n"
-    text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/jns_fc_bots">JNS BOTS DISCUSSION</a>\n"""
-    text+="""\n<b><i>Source Code:</i></b> <a href="https://t.me/githubsoursecode">Source</a>"""
+    text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/Sk_Tv_Group">@Sk_Tv_Group</a>\n"""
+    text+="""\n<b><i>Website:</i></b> <a href="https://www.sktamilserialbots.com/">Website 🌐</a>"""
 
     buttons = [
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="https://t.me/jintons"
+                    "My Dev ⚡", url="https://t.me/Sk8903"
                 ),
                 
             InlineKeyboardButton
@@ -1639,10 +1639,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/jintons'),
-            InlineKeyboardButton('Source Code 🧾', url ='https://t.me/githubsoursecode')
+            InlineKeyboardButton('My God 🤒', url='https://t.me/Sk8903'),
+            InlineKeyboardButton('Website 🌐', url ='https://www.sktamilserialbots.com/')
         ],[
-            InlineKeyboardButton('Support 🛠', url='https://t.me/jns_bots')
+            InlineKeyboardButton('Support 🛠', url='https://t.me/Sk_Tv_Official')
         ],[
             InlineKeyboardButton('Help ⚙', callback_data="help")
         ]]
