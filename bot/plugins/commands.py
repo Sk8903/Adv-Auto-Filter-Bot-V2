@@ -114,7 +114,7 @@ First Join Your Channel 💖
 
     buttons = [[
         InlineKeyboardButton('My God 🤒', url='https://t.me/Sk8903'),
-        InlineKeyboardButton('Website 🌐', url ='https://t.me/https://www.sktamilserialbots.com/')],                               
+        InlineKeyboardButton('Website 🌐', url ='https://www.sktamilserialbots.com/')],                               
      [
         InlineKeyboardButton('Support 🛠', url='https://t.me/Sk_Tv_Official')
     ],[
