@@ -48,15 +48,15 @@ For More Details Click Help Button Below..
 """
     
     ABOUT_TEXT = """
-🤖 𝗠𝗬 𝗡𝗔𝗠𝗘 : <a href="https://t.me/JNS_AUTOFILTER_BOT">JNS AUTOFILTER BOT</a>
+🤖 𝗠𝗬 𝗡𝗔𝗠𝗘 : <a href="https://t.me/Dubbing_Serials_bot">Dubbing Serials bot</a>
 
-📣𝗖𝗛𝗔𝗡𝗡𝗘𝗟 : <a href="https://t.me/jns_bots">ＪƝ⟆ ᗷ〇Ƭ⟆</a>
+📣 Main Channel 💖: <a href="https://t.me/Sk_Tv_Official">Sk_Tv</a>
 
-👲 𝗗𝗘𝗩𝗟𝗢𝗣𝗘𝗥 : <a href="https://t.me/jintons">JINTO NS</a>❤
+👲 𝗗𝗘𝗩𝗟𝗢𝗣𝗘𝗥 : <a href="https://t.me/Sk8903">Sk</a>❤
 
 📜𝗟𝗔𝗡𝗚𝗨𝗔𝗚𝗘 : <a href="https://www.python.org/">Python3</a>
 
-✨𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 : <a href="https://t.me/githubsoursecode">CLICK</a>
+Movie Channel 💖 : <a href="https://t.me/Sk_Tamil_Movies">CLICK</a>
 
-📮 𝗙𝗥𝗔𝗠𝗘𝗪𝗢𝗥𝗞 : <a href="https://github.com/pyrogram/pyrogram">PYROGRAM</a>
+🌐 website : <a href="https://www.sktamilserialbots.com/">Website</a>
 """
