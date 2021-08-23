@@ -4,13 +4,13 @@
 
 class Translation(object):
     
-    START_TEXT = """<b>Hey {}!!</b>
+    START_TEXT = """<b>வணக்கம் 🖐️ {}!!</b>
 <i>Am Just A Advance Auto Filter Bot....😉
 
 Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🔥🔥😝
 
 For More Details Click Help Button Below..
-<b>♕ 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 ♛</b> <a href="https://t.me/JNS_BOTS">ＪƝ⟆ ᗷ〇Ƭ⟆</a>
+<b>Join Main Channel 💖</b> <a href="https://t.me/Sk_Tv_Pfficial">Sk Tv</a>
 </i>"""    
     
     HELP_TEXT = """
