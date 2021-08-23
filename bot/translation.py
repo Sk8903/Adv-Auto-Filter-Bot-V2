@@ -6,11 +6,8 @@ class Translation(object):
     
     START_TEXT = """<b>வணக்கம் 🖐️ {}!!</b>
 <i>Am Just A Advance Auto Filter Bot....😉
-
-Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🔥🔥😝
-
-For More Details Click Help Button Below..
-<b>Join Main Channel 💖</b> <a href="https://t.me/Sk_Tv_Pfficial">Sk Tv</a>
+Thanks For Using 💖💖
+<b>Join Main Channel 💖</b> <a href="https://t.me/Sk_Tv_official">Sk Tv</a>
 </i>"""    
     
     HELP_TEXT = """
@@ -44,7 +41,7 @@ For More Details Click Help Button Below..
             -> <code>Status</code> - Button Will Shows The Stats Of Your Channel
 
 
-<b>♕ 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 ♛</b> <a href="https://t.me/jns_bots">ＪƝ⟆ ᗷ〇Ƭ⟆</a>        
+<b>Join Main Channel 💖</b> <a href="https://t.me/Sk_Tv_Official">Sk Tv</a>        
 """
     
     ABOUT_TEXT = """
@@ -56,7 +53,7 @@ For More Details Click Help Button Below..
 
 📜𝗟𝗔𝗡𝗚𝗨𝗔𝗚𝗘 : <a href="https://www.python.org/">Python3</a>
 
-Movie Channel 💖 : <a href="https://t.me/Sk_Tamil_Movies">CLICK</a>
+💖 Movie Channel  : <a href="https://t.me/Sk_Tamil_Movies">CLICK</a>
 
 🌐 website : <a href="https://www.sktamilserialbots.com/">Website</a>
 """
