@@ -24,15 +24,15 @@ async def start(bot, update):
         except UserNotParticipant:
             #await update.reply_text(f"Join @{update_channel} To Use Me")
             await update.reply_text(
-                text=""" <b> ⚠️ YOU ARE NOT SUBSCRIBED OUR CHANNEL⚠️
+                text=""" <b> ⚠️ நீங்கள் இன்னும் எங்களுடைய டெலிகிராம் சேனலில் Join செய்யவில்லை Join செய்தால் மட்டுமே என்னை பயன்படுத்த முடியும்⚠️
 
 Join on our channel to get Serials ✅
 
 First Join Your Channel 💖
 
-⬇️Channel link⬇️ </b>""",
+Channel Link 👇👇 </b>""",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="⚡ Join My Channel⚡️", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="💖 Join Sk Tv Official Telegram Channel 💖", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
