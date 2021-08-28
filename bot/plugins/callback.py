@@ -142,7 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<i>கிடைத்த</i> <code>{leng}</code> <i>எபிசோட் 👇👇 🔷 Powered By - @Sk_Tv_Official:</i> <code>{query}</code>"
+    text=f"🔵 நீங்கள் தேடிய பெயரில் கிடைத்த எபிசோடுகள் : {(len_results)} 🔵 நீங்கள் தேடிய சீரியலின் பெயர் : <code>{query}</code>"
         
     try:
         await update.message.edit(
