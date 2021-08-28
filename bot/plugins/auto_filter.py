@@ -69,13 +69,13 @@ async def auto_filter(bot, update):
             # from B to MiB
             
             if file_size < 1024:
-                file_size = f"⚫[{file_size} B]⚫"
+                file_size = f"[{file_size} B]"
             elif file_size < (1024**2):
-                file_size = f"🔴[{str(round(file_size/1024, 2))} KB]🔴"
+                file_size = f"[{str(round(file_size/1024, 2))} KiB] "
             elif file_size < (1024**3):
-                file_size = f"🔵[{str(round(file_size/(1024**2), 2))} MB]🔵 "
+                file_size = f"[{str(round(file_size/(1024**2), 2))} MiB] "
             elif file_size < (1024**4):
-                file_size = f"♦️[{str(round(file_size/(1024**3), 2))} GB]♦️"
+                file_size = f"[{str(round(file_size/(1024**3), 2))} GiB] "
             
             
             file_size = "" if file_size == ("[0 B]") else file_size
@@ -147,13 +147,13 @@ async def auto_filter(bot, update):
         if len_result != 1:
             result[0].append(
                 [
-                    InlineKeyboardButton("Next ➡️", callback_data=f"navigate(0|next|{query})")
+                    InlineKeyboardButton("Next ⏩", callback_data=f"navigate(0|next|{query})")
                 ]
             )
         
         # Just A Decaration
         result[0].append([
-            InlineKeyboardButton(f"💖 Page 1/{len_result if len_result < max_pages else max_pages} 💖", callback_data="ignore")
+            InlineKeyboardButton(f"🔰 Page 1/{len_result if len_result < max_pages else max_pages} 🔰", callback_data="ignore")
         ])
         
         
@@ -203,7 +203,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"நீங்கள் தேடிய பெயரில் கிடைத்த எபிசோடுகள் : {(len_results)}" நீங்கள் தேடிய பெயர் :{query}"^ 🔷 Powered By - @Sk_Tv_Official",
+                text=f"Found {(len_results)} Results For Your Query: <code>{query}</code>",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
